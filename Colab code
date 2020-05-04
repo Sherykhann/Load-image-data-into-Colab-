@@ -1,0 +1,6 @@
+// Following line of code will mount the google drive into colab 
+from google.colab import drive
+drive.mount('/content/drive')
+
+// Following line of code will unzip the zip folder and save it in the Flowers
+!unzip -uq "/content/drive/My Drive/flowers.zip" -d "/content/drive/My Drive/Flowers_unzip"
